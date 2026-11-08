@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="FullDex is an independent fullscreen Pokédex-inspired game launcher.">
+<title>FullDex — Game Launcher</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0d1017;color:#f5f6fa;font-family:Arial,sans-serif;line-height:1.6}
+header,footer{padding:22px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+header{border-bottom:1px solid #2b303a}
+.logo{font-size:25px;font-weight:800;font-style:italic}
+a{color:#b7c9ff}
+nav a{margin-left:18px;text-decoration:none}
+main{max-width:950px;margin:auto;padding:90px 24px;text-align:center}
+h1{font-size:clamp(34px,6vw,64px);line-height:1.12}
+p{color:#b7bdc9}
+.button{display:inline-block;background:#e53b48;color:white;padding:14px 25px;border-radius:10px;text-decoration:none;font-weight:bold;margin:20px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:70px}
+.feature{background:#191e29;border:1px solid #303643;border-radius:15px;padding:24px;text-align:left}
+.feature h2{font-size:19px}
+footer{border-top:1px solid #2b303a;color:#aab2c1}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">FullDex</div>
+<nav><a href="#features">Features</a><a href="https://github.com/mamesj/pokemon-fulldex">GitHub</a><a href="/privacy/">Privacy</a></nav>
+</header>
+<main>
+<h1>Your games.<br>Your FullDex.</h1>
+<p>An independent fullscreen Pokédex-inspired game launcher, bringing your game library together in one place.</p>
+<a class="button" href="https://github.com/mamesj/pokemon-fulldex/releases">Download FullDex</a>
+<section class="features" id="features">
+<div class="feature"><h2>Fullscreen Gameplay</h2><p>Enjoy supported games with flexible display and screen layouts.</p></div>
+<div class="feature"><h2>Game Library</h2><p>Organise your own game files in one convenient launcher.</p></div>
+<div class="feature"><h2>Cloud Saves</h2><p>Optional Google Drive integration for supported game saves.</p></div>
+</section>
+</main>
+<footer><span>FullDex — Independent community project</span><a href="/privacy/">Privacy Policy</a><a href="https://github.com/mamesj/pokemon-fulldex/issues">Support</a></footer>
+</body>
+</html>
